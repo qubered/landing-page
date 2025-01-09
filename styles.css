@@ -20,7 +20,7 @@ footer {
     padding: 32px;
 }
 .hero-box,
-footer {
+.footer-box {
     background-color: #1F2937;
 }
 
@@ -28,7 +28,8 @@ footer {
 .hero-box .hero,
 .content-box .content,
 .quote-box .quote,
-.action-box .action {
+.action-box .action,
+.footer-box footer {
     width: 40%;
 }
 
@@ -212,4 +213,15 @@ footer {
     color: #F9FAF8;
     font-weight: bold;
     font-size: 20px;
+}
+
+.footer-box {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-box p {
+    padding: 50px;
+    color: #F9FAF8;
 }
