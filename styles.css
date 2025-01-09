@@ -27,7 +27,8 @@ footer {
 .hero-box nav,
 .hero-box .hero,
 .content-box .content,
-.quote-box .quote {
+.quote-box .quote,
+.action-box .action {
     width: 40%;
 }
 
@@ -49,7 +50,7 @@ footer {
 }
 .hero-box nav #links a,
 .hero-box .hero .text p,
-.hero-box .hero .text button {
+.hero-box .hero .text button, {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -141,6 +142,7 @@ footer {
     text-align: center;
     font-size: 18px;
     padding: 10px;
+    font-weight: lighter;
 }
 
 
@@ -155,7 +157,7 @@ footer {
 .quote {
     display: flex;
     flex-direction: column;
-    padding: 120px 10px;
+    padding: 120px 200px;
     
     
 }
@@ -171,4 +173,43 @@ footer {
     font-weight: bold;
     font-size: 24px;
     margin-left: auto;
+}
+
+.action-box {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.action-box .action {
+    margin: 150px 0px;
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding: 50px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px
+}
+.action-box .action .text h3 {
+    font-size: 28px;
+    color: #F9FAF8;
+    margin-bottom: 5px;
+}
+.action-box .action .text p {
+    font-size: 120%;
+    color: #F9FAF8;
+    font-weight: lighter;
+}
+
+.action-box .action button {
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 10px 40px;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 20px;
 }
