@@ -23,7 +23,7 @@ footer {
 
 .hero-box nav,
 .hero-box .hero {
-    width: 50%;
+    width: 40%;
 }
 
 .hero-box nav {
@@ -42,23 +42,38 @@ footer {
     display: flex;
     gap: 20px;
 }
-.hero-box nav #links li,
-.hero-box .hero .text p {
+.hero-box nav #links a,
+.hero-box .hero .text p,
+.hero-box .hero .text button {
     font-size: 18px;
-    color: #F9FAF8;
+    color: #E5E7EB;
 }
 
 .hero-box nav #links li {
     list-style: none;
+}
+.hero-box nav #links a {
+    text-decoration: none;
 }
 
 .hero-box .hero {
     flex: 1;
     display: flex;
     gap: 50px;
+    margin-bottom: 100px;
 }
 .hero-box .hero .text {
     flex: 1;   
+}
+.hero-box .hero button {
+    background-color: #3882F6;
+    padding: 7px 30px;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.hero-box .hero .text p {
+    margin-bottom: 20px;
 }
 .hero-box .hero .text h1 {
     font-size: 48px;
@@ -68,6 +83,9 @@ footer {
 }
 .hero-box .hero img {
     flex: 1;
-    width: 200px;
+    width: 500px;
+    max-height: 250px;
     height: auto;
+    object-fit: cover;
 }
+
